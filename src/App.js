@@ -152,7 +152,7 @@ class App extends Component {
           this.displayFaceBox(this.calculateFaceLocation(result))
           // console.log(result.outputs[0].data.regions[0].region_info.bounding_box)
         })
-        .catch(error => console.log('error', error));
+        .catch(error => console.log('No Face Detected'));
   }
 
   render() {
