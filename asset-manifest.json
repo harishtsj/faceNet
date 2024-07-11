@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/faceNet/static/css/main.c006b46e.css",
+    "main.js": "/faceNet/static/js/main.7acb3714.js",
+    "static/js/453.fa953659.chunk.js": "/faceNet/static/js/453.fa953659.chunk.js",
+    "static/media/brain.png": "/faceNet/static/media/brain.202f620fd719e359317f.png",
+    "index.html": "/faceNet/index.html",
+    "main.c006b46e.css.map": "/faceNet/static/css/main.c006b46e.css.map",
+    "main.7acb3714.js.map": "/faceNet/static/js/main.7acb3714.js.map",
+    "453.fa953659.chunk.js.map": "/faceNet/static/js/453.fa953659.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c006b46e.css",
+    "static/js/main.7acb3714.js"
+  ]
+}
