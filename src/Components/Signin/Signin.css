@@ -1,0 +1,38 @@
+.forms {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 3px solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: Helvetica;
+}
+
+::placeholder {
+    color: black;
+}
+
+.forms:focus{
+    outline: none;
+}
+
+.btnlogin{
+    width: 240px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid black;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.btnlogin:hover{
+    background: linear-gradient(to right, skyblue, pink);
+}
