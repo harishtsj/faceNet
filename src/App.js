@@ -135,11 +135,15 @@ class App extends Component {
     return(
       <div className = 'App'>
         <ParticlesBg num={50} type="cobweb" bg={true} />
-        <Navigation isSignedin = {this.state.isSignedin} onRouteChange = { this.onRouteChange }/>
+        <div className='nav-bar'>
+          <Logo />
+          <div className='nav-element'>
+            <Navigation isSignedin = {this.state.isSignedin} onRouteChange = { this.onRouteChange }/>
+          </div>
+        </div>
         {
           this.state.route === 'home' 
           ? <Fragment>
-              <Logo />
               {/* <Rank /> */}
               <ImageLinkForm 
                 onInputChange = { this.onInputChange } 

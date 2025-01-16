@@ -7,6 +7,19 @@
   justify-content: center;
 }
 
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin: 30px;
+}
+
+.nav-element {
+  display: flex;
+  justify-content: flex-end;
+  flex: 2;
+}
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
