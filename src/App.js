@@ -74,6 +74,18 @@ class App extends Component {
     const URLImage  = document.getElementById('URLImage');
     const width     = Number(URLImage.width);
     const height    = Number(URLImage.height);
+    
+    // const Left_Col=   faceDataBoundaries.left_col;
+    // const Top_Row=   faceDataBoundaries.top_row ;
+    // const Right_Col=  faceDataBoundaries.right_col;
+    // const Bottom_Row= faceDataBoundaries.bottom_row;
+
+    const Left_Col=   ( faceDataBoundaries.left_col ) * width;
+    const Top_Row=   ( faceDataBoundaries.top_row ) * height;
+    const Right_Col=  ( width - (( faceDataBoundaries.right_col ) * width) );
+    const Bottom_Row= ( height - (( faceDataBoundaries.bottom_row ) * height) );
+
+    console.log(Left_Col, Top_Row, Right_Col, Bottom_Row)
 
     return {
       Left_Col:   ( faceDataBoundaries.left_col ) * width,

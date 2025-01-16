@@ -1,0 +1,10 @@
+https://samples.clarifai.com/face-det.jpg
+
+https://www.pexels.com/photo/woman-wearing-black-spaghetti-strap-top-415829/
+
+https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+
+outputs[0].data.regions[0].region_info.bounding_box
+
+
+left_Col*100
