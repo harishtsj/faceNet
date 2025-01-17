@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/faceNet/static/css/main.158ae2b0.css",
-    "main.js": "/faceNet/static/js/main.3980e5c8.js",
+    "main.css": "/faceNet/static/css/main.f24c7f90.css",
+    "main.js": "/faceNet/static/js/main.f1654ef4.js",
     "static/js/453.fa953659.chunk.js": "/faceNet/static/js/453.fa953659.chunk.js",
     "static/media/brain.png": "/faceNet/static/media/brain.202f620fd719e359317f.png",
     "index.html": "/faceNet/index.html",
-    "main.158ae2b0.css.map": "/faceNet/static/css/main.158ae2b0.css.map",
-    "main.3980e5c8.js.map": "/faceNet/static/js/main.3980e5c8.js.map",
+    "main.f24c7f90.css.map": "/faceNet/static/css/main.f24c7f90.css.map",
+    "main.f1654ef4.js.map": "/faceNet/static/js/main.f1654ef4.js.map",
     "453.fa953659.chunk.js.map": "/faceNet/static/js/453.fa953659.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.158ae2b0.css",
-    "static/js/main.3980e5c8.js"
+    "static/css/main.f24c7f90.css",
+    "static/js/main.f1654ef4.js"
   ]
 }
